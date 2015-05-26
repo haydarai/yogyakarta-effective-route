@@ -1,0 +1,32 @@
+﻿<Window x:Class="Yogyakarta_Effective_Route.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        Title="Yogyakarta Effective Route" Height="768" Width="1024" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <StackPanel Orientation="Horizontal">
+        <StackPanel HorizontalAlignment="Left">
+            <TextBlock Text="Choose places you want to visit"></TextBlock>
+            <ListView HorizontalAlignment="Left" x:Name="lvTouristObjects" VerticalAlignment="Top" ItemsSource="{Binding}" IsSynchronizedWithCurrentItem="True" SelectionChanged="lvTouristObjects_SelectionChanged">
+                <ListView.View>
+                    <GridView>
+                        <GridView.Columns>
+                            <GridViewColumn>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <CheckBox Tag="{Binding ID}" IsChecked="{Binding RelativeSource={RelativeSource AncestorType={x:Type ListViewItem}}, Path=IsSelected}" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="Name" />
+                            <GridViewColumn DisplayMemberBinding="{Binding Description}" Header="Description" />
+                        </GridView.Columns>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Button x:Name="bCalculate" Content="Calculate Best Route" Click="bCalculate_Click"></Button>
+            <StackPanel x:Name="ResultPanel">
+            </StackPanel>
+        </StackPanel>
+        <m:Map x:Name="mRoute" Width="850" CredentialsProvider="AgchoLh-mhsNBNEjRvUTN0kKhoNOsc_nnezXlasG6FJArss7xgt38h5cNp99N814" Mode="Road" ZoomLevel="12" Center="-7.7987857,110.3671027"></m:Map>
+    </StackPanel>
+</Window>

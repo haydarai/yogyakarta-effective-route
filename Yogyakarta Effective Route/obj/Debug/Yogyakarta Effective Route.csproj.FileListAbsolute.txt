@@ -1,0 +1,15 @@
+D:\Data\Projects\C#\Windows\Yogyakarta Effective Route\Yogyakarta Effective Route\bin\Debug\Yogyakarta Effective Route.exe.config
+D:\Data\Projects\C#\Windows\Yogyakarta Effective Route\Yogyakarta Effective Route\bin\Debug\Yogyakarta Effective Route.exe
+D:\Data\Projects\C#\Windows\Yogyakarta Effective Route\Yogyakarta Effective Route\bin\Debug\Yogyakarta Effective Route.pdb
+D:\Data\Projects\C#\Windows\Yogyakarta Effective Route\Yogyakarta Effective Route\obj\Debug\Yogyakarta Effective Route.csprojResolveAssemblyReference.cache
+D:\Data\Projects\C#\Windows\Yogyakarta Effective Route\Yogyakarta Effective Route\obj\Debug\MainWindow.baml
+D:\Data\Projects\C#\Windows\Yogyakarta Effective Route\Yogyakarta Effective Route\obj\Debug\MainWindow.g.cs
+D:\Data\Projects\C#\Windows\Yogyakarta Effective Route\Yogyakarta Effective Route\obj\Debug\App.g.cs
+D:\Data\Projects\C#\Windows\Yogyakarta Effective Route\Yogyakarta Effective Route\obj\Debug\Yogyakarta Effective Route_MarkupCompile.cache
+D:\Data\Projects\C#\Windows\Yogyakarta Effective Route\Yogyakarta Effective Route\obj\Debug\Yogyakarta Effective Route.g.resources
+D:\Data\Projects\C#\Windows\Yogyakarta Effective Route\Yogyakarta Effective Route\obj\Debug\Yogyakarta_Effective_Route.Properties.Resources.resources
+D:\Data\Projects\C#\Windows\Yogyakarta Effective Route\Yogyakarta Effective Route\obj\Debug\Yogyakarta Effective Route.csproj.GenerateResource.Cache
+D:\Data\Projects\C#\Windows\Yogyakarta Effective Route\Yogyakarta Effective Route\obj\Debug\Yogyakarta Effective Route.exe
+D:\Data\Projects\C#\Windows\Yogyakarta Effective Route\Yogyakarta Effective Route\obj\Debug\Yogyakarta Effective Route.pdb
+D:\Data\Projects\C#\Windows\Yogyakarta Effective Route\Yogyakarta Effective Route\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+D:\Data\Projects\C#\Windows\Yogyakarta Effective Route\Yogyakarta Effective Route\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
